@@ -6,7 +6,7 @@ metadata:
 spec:
  replicas: 2
  strategy: 
-    type: Rollingupdate
+    type: RollingUpdate
  selector: 
    matchLabels: 
      app: mavenwebapp
